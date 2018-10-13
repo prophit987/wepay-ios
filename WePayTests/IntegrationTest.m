@@ -162,7 +162,7 @@
     UIGraphicsBeginImageContextWithOptions(size, YES, 0);
     [[UIColor whiteColor] setFill];
     UIRectFill(CGRectMake(0, 0, size.width, size.height));
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage *image = UIGraphicsGetImageFaccountromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
 }
