@@ -21,7 +21,7 @@
 
 @end
 
-@implementation IntegrationTest
+@implementation Integration
 
 - (void) setUp
 {
