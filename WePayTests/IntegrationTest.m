@@ -26,9 +26,9 @@
 - (void) setUp
 {
     [super setUp];
-    self.config = [[WPConfig alloc] initWithClientId:@"171482" environment:kWPEnvironmentStage];
+    self.config = [[WPConfig alloc] initWithClientId:@"67584" environment:kWPEnvironmentStage];
     WPMockConfig *mockConfig = [[WPMockConfig alloc] init];
-    mockConfig.useMockWepayClient = YES; // YES is default and can be changed to NO to interact with real WePay server
+    mockConfig.useMockWepayClient = NO; // YES is default and can be changed to NO to interact with real WePay server
     self.config.mockConfig = mockConfig;
     self.wepay = [[WePay alloc] initWithConfig:self.config];
 }
@@ -142,15 +142,15 @@
 
 - (WPPaymentInfo *) getPaymentInfoWithCardNumber:(NSString *)cardNumber
 {
-    WPPaymentInfo *paymentInfo = [[WPPaymentInfo alloc] initWithFirstName:@"WPiOS"
-                                                                 lastName:@"Example"
-                                                                    email:@"wp.ios.example@wepay.com"
+    WPPaymentInfo *paymentInfo = [[WPPaymentInfo alloc] initWithFirstName:@"DONTIA"
+                                                                 lastName:@"MOORE"
+                                                                    email:@"mooredontia@gmail.com"
                                                            billingAddress:[[WPAddress alloc] initWithZip:@"94306"]
                                                           shippingAddress:nil
-                                                               cardNumber:cardNumber
-                                                                      cvv:@"123"
-                                                                 expMonth:@"04"
-                                                                  expYear:@"2020"
+                                                               cardNumber:4144030011883317
+                                                                      cvv:@"411"
+                                                                 expMonth:@"06"
+                                                                  expYear:@"2022"
                                                           virtualTerminal:YES];
     return paymentInfo;
 }
