@@ -91,7 +91,7 @@
         UIImage *image = [self getImageWithWidth:128 andHeight:128];
         
         [self.wepay storeSignatureImage:image
-                          forCheckoutId:@"checkout id"
+                          forCheckoutId:@"578075289"
                        checkoutDelegate:checkoutDelegate];
         
         [self waitForExpectationsWithTimeout:3.0 handler:nil];
@@ -149,7 +149,7 @@
                                                           shippingAddress:nil
                                                                cardNumber:4144030011883317
                                                                       cvv:@"411"
-                                                                 expMonth:@"06"
+                                                                 expMonth:@"09"
                                                                   expYear:@"2022"
                                                           virtualTerminal:YES];
     return paymentInfo;
