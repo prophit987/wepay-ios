@@ -19,3 +19,44 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+        wepay-ios/LICENSE
+      
+      Last login: Thu Oct 18 19:37:07 on ttys000
+users-iMac:~ dontia$ ssh-keygen -t rsa -b 4096 -C “mooredontia@gmail.com"
+> 
+> 
+> ssh-keygen -t rsa -b 4096 -C “mooredontia@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/dontia/.ssh/id_rsa): 
+/Users/dontia/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/dontia/.ssh/id_rsa.
+Your public key has been saved in /Users/dontia/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:UuAQmQ770Q4PgJ8gGki/KuNoJmFbhhX4ZvI1sCwGMO8 “mooredontia@gmail.com
+
+
+ssh-keygen -t rsa -b 4096 -C “mooredontia@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|*o. o+.          |
+|B++ooo .         |
+|+++B+.. .        |
+|.=+B*o..         |
+|. Eo.*o S        |
+|.o.+. o.         |
+|+o+              |
+|==               |
+|=.               |
++----[SHA256]-----+
+users-iMac:~ dontia$ 
+
